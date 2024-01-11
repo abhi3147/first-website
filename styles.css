@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ a {
+    cursor: pointer;
+ }
+ 
+
+.hero {
+    background-color: #1f2537;
+    color: #f9faf8;
+    padding: 10px 80px 40px 80px;
+}
+
+.sign-up {
+    padding: 6px 24px;
+    max-width: fit-content;
+    border: #e7e5eb solid 1px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.header-logo {
+    font-weight: extra-bold;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.title-paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero > .link > a , .hero > .link > .side-links > a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.side-links {
+    display: flex;
+    gap: 16px;
+}
+.hero-img {
+    height: auto;
+    width: 300px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    background-color: #f9faf8;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 70px;
+}
+.card-title {
+    padding: 10px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-image {
+    height: auto;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: #3882f6 solid ;
+    border-radius: 10px;
+}
+.card-info {
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #e7e5eb;
+    padding: 50px;
+    text-align: center;
+}
+
+.quote {
+    text-align: italic;
+}
+
+.note-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.alert {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1f2537;
+    color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
+}
